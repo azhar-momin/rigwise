@@ -35,6 +35,12 @@ export const Route = createRootRoute({
       { name: "theme-color", content: "#0a0a0a" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "RigWise — Build Your Dream PC. Smartly." },
+      { name: "twitter:title", content: "RigWise — Build Your Dream PC. Smartly." },
+      { property: "og:description", content: "An intelligent, scroll-driven PC building companion. Pick your budget and purpose, get a balanced build." },
+      { name: "twitter:description", content: "An intelligent, scroll-driven PC building companion. Pick your budget and purpose, get a balanced build." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/54ef2785-7659-44b3-ba6f-118a241309bb/id-preview-2aa4c427--15ccf60e-f710-4756-8060-89649fac5741.lovable.app-1776527145509.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/54ef2785-7659-44b3-ba6f-118a241309bb/id-preview-2aa4c427--15ccf60e-f710-4756-8060-89649fac5741.lovable.app-1776527145509.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
